@@ -15,11 +15,13 @@ h1{
 h2{
     font-size: 30px;
     color: #0D0D0D;
+
 }
 p{
     font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
+    color:white;
 }
 
 img{
@@ -33,6 +35,7 @@ div{
     min-height:125px;
     padding:20px;
     border: 3px solid white;
+    color: white;
 
 }
 
@@ -57,9 +60,13 @@ div{
     border-top: 2px;
 }
 
-.blue h2, p{
-   color: #C4C4C4;
-}
+.blue h2{
+    color: #C4C4C4;
+ }
+
+ .blue p{
+    color: #C4C4C4;
+ }
 
 .yellow{
     background-color: #FFFF00;
@@ -80,14 +87,5 @@ div{
     margin-right: 50px;
     border-right: 5px;
     border-top: 2px;
-
-}
-
-footer{
-
-
-}
-
-footer p{
 
 }
