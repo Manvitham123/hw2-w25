@@ -1,91 +1,112 @@
-body{
+body {
     font-family: Arial, Verdana;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #FFFFFF;
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
 }
-h1{
+
+h1 {
     font-size: 42px;
     text-align: center;
     padding: 15px;
 }
 
-h2{
+h2 {
     font-size: 30px;
     color: #0D0D0D;
-
 }
-p{
+
+p {
     font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
-    color:white;
+    color: #FFFFFF;
 }
 
-img{
+img {
     width: 250px;
-    justify-content: center;
-    border: white dashed 10px;
-
+    border: #FFFFFF dashed 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-div{
-    min-height:125px;
-    padding:20px;
-    border: 3px solid white;
-    color: white;
-
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 .introduction {
     border-radius: 15px;
-    border: 2px solid white;
+    border: 2px solid #FFFFFF;
     margin-top: 15px;
     line-height: 2;
 }
-.red{
+
+.red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
 }
-.blue{
+
+.blue {
     background-color: #0000FF;
-    text-align:left;
+    text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border: none;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
 }
 
-.blue h2{
+.blue h2 {
     color: #C4C4C4;
- }
+}
 
- .blue p{
+.blue p {
     color: #C4C4C4;
- }
+}
 
-.yellow{
+.yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom:2px;
-    border-left: 5px;
-
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
 }
 
-.yellow p{
+.yellow p {
     color: #707070;
 }
 
-.green{
-    background-color:#008500;
+.green {
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border: none;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+}
+
+
+footer{
+background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
+border: 5px solid #FFFFFF;
+
+}
+
+footer p{
+    font-size: 20px;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 
 }
